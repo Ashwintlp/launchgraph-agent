@@ -63,42 +63,14 @@ MIT
 
 ---
 Crafted for experimentation and fun with LangGraph and real-world space data. 🌌
+---
 
-inputs from swagger
+# To run the server:
+uvicorn app:app --reload
 
-{
-"location": "Cape Canaveral",
-"weather": "Clear",
-"solar_activity": "Low",
-"debris_risk": "Low"
-}
-
-result = graph.invoke({
-    "location": "Cape Canaveral",
-    "weather": "Clear",
-    "solar_activity": "Low",
-    "debris_risk": "Low"
- })
-result = graph.invoke({
-     "location": "Cape Canaveral",
-     "weather": "Stormy",
-     "solar_activity": "Low",
-     "debris_risk": "Low"
- })
- result = graph.invoke({
-     "location": "Vandenberg",
-     "weather": "Clear",
-     "solar_activity": "High",
-     "debris_risk": "Low"
- })
-result = graph.invoke({
-    "location": "Kennedy Space Center",
-    "weather": "Clear",
-    "solar_activity": "Low",
-    "debris_risk": "High"
-})
-
+## inputs from swagger
 swagger inputs:
+
 {
 "location": "Cape Canaveral",
 "weather": "Clear",
