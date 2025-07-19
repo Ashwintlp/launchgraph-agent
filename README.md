@@ -1,16 +1,16 @@
 # rocket_launch_agent/README.md
-# 🚀 LaunchGraph Agent
+# LaunchGraph Agent
 
 This is an agentic system built with [LangGraph](https://github.com/langchain-ai/langgraph) that simulates satellite launch window optimization using real-time data from NASA, Open Meteo, and Celestrak.
 
-## 🌍 Features
+## Features
 - Weather forecasting from Open Meteo
 - Solar flare activity check using NASA's DONKI API
 - Orbital debris detection via Celestrak TLE
 - LangGraph-based decision graph (GO / NO-GO)
 - Intelligent launch window suggestion
 
-## 📦 Project Structure
+## Project Structure
 ```
 rocket_launch_agent/
 ├── main.py                      # Entry point
@@ -26,7 +26,7 @@ rocket_launch_agent/
 └── README.md
 ```
 
-## 🛠️ Setup
+## Setup
 1. **Clone repo**
 ```bash
 git clone https://github.com/yourname/launchgraph-agent.git
@@ -48,7 +48,7 @@ NASA_API_KEY=your_actual_key_here
 python main.py
 ```
 
-## ✅ Sample Output
+## Sample Output
 ```bash
 Final Decision: {'decision': 'NO_GO', 'new_recommendation': '2025-07-22T15:00:00+00:00'}
 ```
@@ -58,7 +58,7 @@ Final Decision: {'decision': 'NO_GO', 'new_recommendation': '2025-07-22T15:00:00
 - [Open Meteo](https://open-meteo.com/)
 - [Celestrak TLE](https://celestrak.org/NORAD/elements/)
 
-## 📖 License
+## License
 MIT
 
 ---
