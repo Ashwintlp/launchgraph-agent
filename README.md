@@ -97,3 +97,51 @@ result = graph.invoke({
     "solar_activity": "Low",
     "debris_risk": "High"
 })
+
+swagger inputs:
+{
+"location": "Cape Canaveral",
+"weather": "Clear",
+"solar_activity": "Low",
+"debris_risk": "Low"
+}
+{
+"location": "Cape Canaveral",
+"weather": "Stormy",
+"solar_activity": "Low",
+"debris_risk": "Low"
+}
+{
+"location": "Cape Canaveral",
+"weather": "Clear",
+"solar_activity": "High",
+"debris_risk": "Low"
+}
+{
+"location": "Cape Canaveral",
+"weather": "Clear",
+"solar_activity": "Low",
+"debris_risk": "High"
+}
+{
+"location": "Cape Canaveral",
+"weather": "Stormy",
+"solar_activity": "High",
+"debris_risk": "High"
+}
+{
+"location": "Vandenberg Air Force Base",
+"weather": "Clear",
+"solar_activity": "Low",
+"debris_risk": "Low"
+}
+{
+"location": "Unknown Site"
+}
+{
+"location": "Cape Canaveral",
+"weather": "Clear",
+"solar_activity": "High",
+"debris_risk": "Low"
+}
+
