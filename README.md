@@ -117,3 +117,32 @@ swagger inputs:
 "debris_risk": "Low"
 }
 
+## /analyze-launch-request
+{
+"user_query": "Is it safe to launch from Cape Canaveral this weekend?"
+}
+
+{
+"user_query": "Should we launch tomorrow from Vandenberg given the recent solar activity?"
+}
+
+{
+"user_query": "Is the Falcon 9 launch being delayed due to thunderstorms in Florida?"
+}
+
+{
+"user_query": "What's the weather like at Baikonur Cosmodrome?"
+}
+
+{
+"user_query": "Launch is important."
+}
+
+{
+"user_query": "Can we proceed with the satellite launch from Guiana Space Centre next week with the recent debris alerts?"
+}
+
+## /stream-launch-analysis
+{
+"user_query": "Is it safe to launch from Cape Canaveral this weekend?"
+}

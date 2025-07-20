@@ -1,3 +1,11 @@
 langgraph
 requests
 python-dotenv
+openai
+uvicorn
+langchain
+tenacity
+cachetools
+tiktoken
+async-lru
+httpx
